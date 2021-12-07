@@ -1,6 +1,5 @@
 export default {
   target: 'static',
-
   head: {
     title: 'WebDev Assignment - E-commerce',
     htmlAttrs: {

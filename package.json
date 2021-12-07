@@ -2,10 +2,15 @@
   "name": "assignment",
   "version": "1.0.0",
   "private": true,
+  "config": {
+    "nuxt": {
+      "port": "8000"
+    }
+  },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "HOST=127.0.0.1 nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "HOST=127.0.0.1 nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js",

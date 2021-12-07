@@ -1,11 +1,15 @@
 <template>
-  <main role="main">
-    <Nuxt />
-  </main>
+  <div id="myApp">
+    <SiteHeader />
+    <main role="main">
+      <Nuxt />
+    </main>
+  </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+// import SiteHeader from '~/components/SiteHeader.vue';
 
 @Component({
   name: 'LayoutsDefault'
